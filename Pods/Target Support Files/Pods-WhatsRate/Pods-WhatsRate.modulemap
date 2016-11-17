@@ -1,0 +1,6 @@
+framework module Pods_WhatsRate {
+  umbrella header "Pods-WhatsRate-umbrella.h"
+
+  export *
+  module * { export * }
+}

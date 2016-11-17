@@ -1,0 +1,6 @@
+framework module Pods_WhatsRateUITests {
+  umbrella header "Pods-WhatsRateUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A5EE20EB9FE1F8251E5A3C2 /* Pods_WhatsRateWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E159C3F1239D5E62A86A91CC /* Pods_WhatsRateWidget.framework */; };
+		6906AA9C7B2BFA82396617FF /* Pods_WhatsRateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD60F3FC4E8249DC3E7D7EE /* Pods_WhatsRateUITests.framework */; };
+		811703A74C43C4695132BC16 /* Pods_WhatsRate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3874E90D07590235AD5A35CC /* Pods_WhatsRate.framework */; };
 		863DC13E1DDA91A4004002DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863DC13D1DDA91A4004002DE /* AppDelegate.swift */; };
 		863DC1401DDA91A4004002DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863DC13F1DDA91A4004002DE /* ViewController.swift */; };
 		863DC1431DDA91A4004002DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863DC1411DDA91A4004002DE /* Main.storyboard */; };
@@ -14,6 +17,14 @@
 		863DC1481DDA91A4004002DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863DC1461DDA91A4004002DE /* LaunchScreen.storyboard */; };
 		863DC1531DDA91A5004002DE /* WhatsRateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863DC1521DDA91A5004002DE /* WhatsRateTests.swift */; };
 		863DC15E1DDA91A5004002DE /* WhatsRateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863DC15D1DDA91A5004002DE /* WhatsRateUITests.swift */; };
+		863DC1721DDA91C5004002DE /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863DC1711DDA91C5004002DE /* NotificationCenter.framework */; };
+		863DC1751DDA91C5004002DE /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863DC1741DDA91C5004002DE /* TodayViewController.swift */; };
+		863DC1781DDA91C5004002DE /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863DC1761DDA91C5004002DE /* MainInterface.storyboard */; };
+		863DC17C1DDA91C5004002DE /* WhatsRateWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 863DC16F1DDA91C5004002DE /* WhatsRateWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		864DAA4C1DDA9728001F984C /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864DAA4B1DDA9728001F984C /* SwiftyJSON.framework */; };
+		864DAA4F1DDA9C95001F984C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863DC1761DDA91C5004002DE /* MainInterface.storyboard */; };
+		864DAA501DDA9CAB001F984C /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863DC1741DDA91C5004002DE /* TodayViewController.swift */; };
+		DF3857987C9C304045D7850D /* Pods_WhatsRateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCDF4B29083DF5B41379B8E /* Pods_WhatsRateTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +42,37 @@
 			remoteGlobalIDString = 863DC1391DDA91A4004002DE;
 			remoteInfo = WhatsRate;
 		};
+		863DC17A1DDA91C5004002DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 863DC1321DDA91A4004002DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 863DC16E1DDA91C5004002DE;
+			remoteInfo = WhatsRateWidget;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		863DC1801DDA91C5004002DE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				863DC17C1DDA91C5004002DE /* WhatsRateWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		120E68649526148FC75F523A /* Pods-WhatsRateWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsRateWidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsRateWidget/Pods-WhatsRateWidget.release.xcconfig"; sourceTree = "<group>"; };
+		1FA5CBF08238D768D7854FC1 /* Pods-WhatsRateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsRateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsRateUITests/Pods-WhatsRateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		214CB26BEFB7AD6732BD405A /* Pods-WhatsRateWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsRateWidget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsRateWidget/Pods-WhatsRateWidget.debug.xcconfig"; sourceTree = "<group>"; };
+		3874E90D07590235AD5A35CC /* Pods_WhatsRate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsRate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54676BD1AA7942DF651499F3 /* Pods-WhatsRateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsRateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsRateTests/Pods-WhatsRateTests.release.xcconfig"; sourceTree = "<group>"; };
+		6BCDF4B29083DF5B41379B8E /* Pods_WhatsRateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsRateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		789259329039576EA4FBFD6F /* Pods-WhatsRate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsRate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsRate/Pods-WhatsRate.debug.xcconfig"; sourceTree = "<group>"; };
 		863DC13A1DDA91A4004002DE /* WhatsRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		863DC13D1DDA91A4004002DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		863DC13F1DDA91A4004002DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +86,17 @@
 		863DC1591DDA91A5004002DE /* WhatsRateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsRateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		863DC15D1DDA91A5004002DE /* WhatsRateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsRateUITests.swift; sourceTree = "<group>"; };
 		863DC15F1DDA91A5004002DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863DC16F1DDA91C5004002DE /* WhatsRateWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WhatsRateWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		863DC1711DDA91C5004002DE /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		863DC1741DDA91C5004002DE /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		863DC1771DDA91C5004002DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		863DC1791DDA91C5004002DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864DAA4B1DDA9728001F984C /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/WhatsRate-avjbkjgzpjdxvkghymqhbwxystkf/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		933E866221F623AA9B22F967 /* Pods-WhatsRateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsRateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsRateUITests/Pods-WhatsRateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B12C6ED31410D1B94EB7D518 /* Pods-WhatsRate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsRate.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsRate/Pods-WhatsRate.release.xcconfig"; sourceTree = "<group>"; };
+		E159C3F1239D5E62A86A91CC /* Pods_WhatsRateWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsRateWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6182693D56632F9C5E80A07 /* Pods-WhatsRateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsRateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsRateTests/Pods-WhatsRateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAD60F3FC4E8249DC3E7D7EE /* Pods_WhatsRateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsRateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +104,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				864DAA4C1DDA9728001F984C /* SwiftyJSON.framework in Frameworks */,
+				811703A74C43C4695132BC16 /* Pods_WhatsRate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3857987C9C304045D7850D /* Pods_WhatsRateTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +121,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6906AA9C7B2BFA82396617FF /* Pods_WhatsRateUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863DC16C1DDA91C5004002DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863DC1721DDA91C5004002DE /* NotificationCenter.framework in Frameworks */,
+				5A5EE20EB9FE1F8251E5A3C2 /* Pods_WhatsRateWidget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B065FABF2BB9CF4A7F56D0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				789259329039576EA4FBFD6F /* Pods-WhatsRate.debug.xcconfig */,
+				B12C6ED31410D1B94EB7D518 /* Pods-WhatsRate.release.xcconfig */,
+				E6182693D56632F9C5E80A07 /* Pods-WhatsRateTests.debug.xcconfig */,
+				54676BD1AA7942DF651499F3 /* Pods-WhatsRateTests.release.xcconfig */,
+				933E866221F623AA9B22F967 /* Pods-WhatsRateUITests.debug.xcconfig */,
+				1FA5CBF08238D768D7854FC1 /* Pods-WhatsRateUITests.release.xcconfig */,
+				214CB26BEFB7AD6732BD405A /* Pods-WhatsRateWidget.debug.xcconfig */,
+				120E68649526148FC75F523A /* Pods-WhatsRateWidget.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		863DC1311DDA91A4004002DE = {
 			isa = PBXGroup;
 			children = (
 				863DC13C1DDA91A4004002DE /* WhatsRate */,
 				863DC1511DDA91A5004002DE /* WhatsRateTests */,
 				863DC15C1DDA91A5004002DE /* WhatsRateUITests */,
+				863DC1731DDA91C5004002DE /* WhatsRateWidget */,
+				863DC1701DDA91C5004002DE /* Frameworks */,
 				863DC13B1DDA91A4004002DE /* Products */,
+				1B065FABF2BB9CF4A7F56D0C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +171,7 @@
 				863DC13A1DDA91A4004002DE /* WhatsRate.app */,
 				863DC14E1DDA91A5004002DE /* WhatsRateTests.xctest */,
 				863DC1591DDA91A5004002DE /* WhatsRateUITests.xctest */,
+				863DC16F1DDA91C5004002DE /* WhatsRateWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +207,29 @@
 			path = WhatsRateUITests;
 			sourceTree = "<group>";
 		};
+		863DC1701DDA91C5004002DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				864DAA4B1DDA9728001F984C /* SwiftyJSON.framework */,
+				863DC1711DDA91C5004002DE /* NotificationCenter.framework */,
+				3874E90D07590235AD5A35CC /* Pods_WhatsRate.framework */,
+				6BCDF4B29083DF5B41379B8E /* Pods_WhatsRateTests.framework */,
+				FAD60F3FC4E8249DC3E7D7EE /* Pods_WhatsRateUITests.framework */,
+				E159C3F1239D5E62A86A91CC /* Pods_WhatsRateWidget.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		863DC1731DDA91C5004002DE /* WhatsRateWidget */ = {
+			isa = PBXGroup;
+			children = (
+				863DC1741DDA91C5004002DE /* TodayViewController.swift */,
+				863DC1761DDA91C5004002DE /* MainInterface.storyboard */,
+				863DC1791DDA91C5004002DE /* Info.plist */,
+			);
+			path = WhatsRateWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,13 +237,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 863DC1621DDA91A5004002DE /* Build configuration list for PBXNativeTarget "WhatsRate" */;
 			buildPhases = (
+				D803AF4A9C2AF1D16DF7CD30 /* [CP] Check Pods Manifest.lock */,
 				863DC1361DDA91A4004002DE /* Sources */,
 				863DC1371DDA91A4004002DE /* Frameworks */,
 				863DC1381DDA91A4004002DE /* Resources */,
+				863DC1801DDA91C5004002DE /* Embed App Extensions */,
+				EC336053F24CB91281E3823D /* [CP] Embed Pods Frameworks */,
+				F81D9B821F20FEBFE1F9A835 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				863DC17B1DDA91C5004002DE /* PBXTargetDependency */,
 			);
 			name = WhatsRate;
 			productName = WhatsRate;
@@ -149,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 863DC1651DDA91A5004002DE /* Build configuration list for PBXNativeTarget "WhatsRateTests" */;
 			buildPhases = (
+				BAAC2B3E2A436A0B15ED30ED /* [CP] Check Pods Manifest.lock */,
 				863DC14A1DDA91A5004002DE /* Sources */,
 				863DC14B1DDA91A5004002DE /* Frameworks */,
 				863DC14C1DDA91A5004002DE /* Resources */,
+				C8099A4A9DA71272707168B0 /* [CP] Embed Pods Frameworks */,
+				6B005A11264A95F67E463ED9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 863DC1681DDA91A5004002DE /* Build configuration list for PBXNativeTarget "WhatsRateUITests" */;
 			buildPhases = (
+				95FD0498E6C7FDB1B8790DF9 /* [CP] Check Pods Manifest.lock */,
 				863DC1551DDA91A5004002DE /* Sources */,
 				863DC1561DDA91A5004002DE /* Frameworks */,
 				863DC1571DDA91A5004002DE /* Resources */,
+				24DF82ADCBF7747E629786D0 /* [CP] Embed Pods Frameworks */,
+				734B154469A38BA362B26239 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +296,25 @@
 			productName = WhatsRateUITests;
 			productReference = 863DC1591DDA91A5004002DE /* WhatsRateUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		863DC16E1DDA91C5004002DE /* WhatsRateWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863DC17D1DDA91C5004002DE /* Build configuration list for PBXNativeTarget "WhatsRateWidget" */;
+			buildPhases = (
+				F243B9D782545EDE780F05D8 /* [CP] Check Pods Manifest.lock */,
+				863DC16B1DDA91C5004002DE /* Sources */,
+				863DC16C1DDA91C5004002DE /* Frameworks */,
+				863DC16D1DDA91C5004002DE /* Resources */,
+				6397D326353C27E3939B983B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsRateWidget;
+			productName = WhatsRateWidget;
+			productReference = 863DC16F1DDA91C5004002DE /* WhatsRateWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -208,6 +343,11 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 863DC1391DDA91A4004002DE;
 					};
+					863DC16E1DDA91C5004002DE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PGC62Z29HJ;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 863DC1351DDA91A4004002DE /* Build configuration list for PBXProject "WhatsRate" */;
@@ -226,6 +366,7 @@
 				863DC1391DDA91A4004002DE /* WhatsRate */,
 				863DC14D1DDA91A5004002DE /* WhatsRateTests */,
 				863DC1581DDA91A5004002DE /* WhatsRateUITests */,
+				863DC16E1DDA91C5004002DE /* WhatsRateWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				863DC1481DDA91A4004002DE /* LaunchScreen.storyboard in Resources */,
+				864DAA4F1DDA9C95001F984C /* MainInterface.storyboard in Resources */,
 				863DC1451DDA91A4004002DE /* Assets.xcassets in Resources */,
 				863DC1431DDA91A4004002DE /* Main.storyboard in Resources */,
 			);
@@ -255,7 +397,183 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		863DC16D1DDA91C5004002DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863DC1781DDA91C5004002DE /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24DF82ADCBF7747E629786D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatsRateUITests/Pods-WhatsRateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6397D326353C27E3939B983B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatsRateWidget/Pods-WhatsRateWidget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B005A11264A95F67E463ED9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatsRateTests/Pods-WhatsRateTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		734B154469A38BA362B26239 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatsRateUITests/Pods-WhatsRateUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95FD0498E6C7FDB1B8790DF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAAC2B3E2A436A0B15ED30ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8099A4A9DA71272707168B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatsRateTests/Pods-WhatsRateTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D803AF4A9C2AF1D16DF7CD30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC336053F24CB91281E3823D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatsRate/Pods-WhatsRate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F243B9D782545EDE780F05D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F81D9B821F20FEBFE1F9A835 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatsRate/Pods-WhatsRate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		863DC1361DDA91A4004002DE /* Sources */ = {
@@ -264,6 +582,7 @@
 			files = (
 				863DC1401DDA91A4004002DE /* ViewController.swift in Sources */,
 				863DC13E1DDA91A4004002DE /* AppDelegate.swift in Sources */,
+				864DAA501DDA9CAB001F984C /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +602,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		863DC16B1DDA91C5004002DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863DC1751DDA91C5004002DE /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -295,6 +622,11 @@
 			isa = PBXTargetDependency;
 			target = 863DC1391DDA91A4004002DE /* WhatsRate */;
 			targetProxy = 863DC15A1DDA91A5004002DE /* PBXContainerItemProxy */;
+		};
+		863DC17B1DDA91C5004002DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 863DC16E1DDA91C5004002DE /* WhatsRateWidget */;
+			targetProxy = 863DC17A1DDA91C5004002DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -313,6 +645,14 @@
 				863DC1471DDA91A4004002DE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		863DC1761DDA91C5004002DE /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				863DC1771DDA91C5004002DE /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,6 +676,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -386,6 +727,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -413,7 +755,9 @@
 		};
 		863DC1631DDA91A5004002DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789259329039576EA4FBFD6F /* Pods-WhatsRate.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PGC62Z29HJ;
 				INFOPLIST_FILE = WhatsRate/Info.plist;
@@ -426,7 +770,9 @@
 		};
 		863DC1641DDA91A5004002DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B12C6ED31410D1B94EB7D518 /* Pods-WhatsRate.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PGC62Z29HJ;
 				INFOPLIST_FILE = WhatsRate/Info.plist;
@@ -439,6 +785,7 @@
 		};
 		863DC1661DDA91A5004002DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6182693D56632F9C5E80A07 /* Pods-WhatsRateTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +801,7 @@
 		};
 		863DC1671DDA91A5004002DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54676BD1AA7942DF651499F3 /* Pods-WhatsRateTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +817,7 @@
 		};
 		863DC1691DDA91A5004002DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933E866221F623AA9B22F967 /* Pods-WhatsRateUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = PGC62Z29HJ;
@@ -483,6 +832,7 @@
 		};
 		863DC16A1DDA91A5004002DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FA5CBF08238D768D7854FC1 /* Pods-WhatsRateUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = PGC62Z29HJ;
@@ -492,6 +842,34 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = WhatsRate;
+			};
+			name = Release;
+		};
+		863DC17E1DDA91C5004002DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 214CB26BEFB7AD6732BD405A /* Pods-WhatsRateWidget.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGC62Z29HJ;
+				INFOPLIST_FILE = WhatsRateWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DiWang.WhatsRate.WhatsRateWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		863DC17F1DDA91C5004002DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120E68649526148FC75F523A /* Pods-WhatsRateWidget.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGC62Z29HJ;
+				INFOPLIST_FILE = WhatsRateWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DiWang.WhatsRate.WhatsRateWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -514,6 +892,7 @@
 				863DC1641DDA91A5004002DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		863DC1651DDA91A5004002DE /* Build configuration list for PBXNativeTarget "WhatsRateTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +901,7 @@
 				863DC1671DDA91A5004002DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		863DC1681DDA91A5004002DE /* Build configuration list for PBXNativeTarget "WhatsRateUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +910,16 @@
 				863DC16A1DDA91A5004002DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		863DC17D1DDA91C5004002DE /* Build configuration list for PBXNativeTarget "WhatsRateWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863DC17E1DDA91C5004002DE /* Debug */,
+				863DC17F1DDA91C5004002DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
