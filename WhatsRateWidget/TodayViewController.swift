@@ -12,15 +12,19 @@ import SwiftyJSON
 
 class TodayViewController: UIViewController, NCWidgetProviding {  
     
+    @IBOutlet weak var displayBar: UILabel!
     @IBOutlet weak var rateIndex: UILabel!
     let url_USD = "https://api.fixer.io/latest?base=USD"
+    var checked: Bool = false
     var currency: Float!
     var yourAmount: Float!
+    var amountArray = [Float]()
         
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view from its nib.
         parsingJSON()
+        expand()
     }
     
     override func didReceiveMemoryWarning() {
@@ -45,5 +49,129 @@ class TodayViewController: UIViewController, NCWidgetProviding {
             self.currency = json["rates"]["CNY"].float
         }
     }
+    
+    func expand() {
+        self.extensionContext?.widgetLargestAvailableDisplayMode = NCWidgetDisplayMode.expanded
+        self.preferredContentSize = CGSize(width: UIScreen.main.bounds.width, height: 100)
+    }
+    
+    func widgetActiveDisplayModeDidChange(_ activeDisplayMode: NCWidgetDisplayMode, withMaximumSize maxSize: CGSize) {
+        
+        if activeDisplayMode == NCWidgetDisplayMode.compact {
+            self.preferredContentSize = CGSize(width: UIScreen.main.bounds.width, height: 100);
+        }else{
+            self.preferredContentSize = CGSize(width: UIScreen.main.bounds.width, height: 200);
+        }
+        
+    }
+    
+    @IBAction func btn_1(_ sender: UIButton) {
+        if checked == false {
+            yourAmount = 1
+            checked = true
+            displayBar.text = String(yourAmount * currency)
+        } else {
+           yourAmount = (yourAmount * 10) + 1
+            displayBar.text = String(yourAmount * currency)
+        }
+    }
+    @IBAction func btn_2(_ sender: UIButton) {
+        if checked == false {
+            yourAmount = 2
+            checked = true
+            displayBar.text = String(yourAmount * currency)
+        } else {
+            yourAmount = (yourAmount * 10) + 2
+            displayBar.text = String(yourAmount * currency)
+        }
+    }
+    @IBAction func btn_3(_ sender: UIButton) {
+        if checked == false {
+            yourAmount = 3
+            checked = true
+            displayBar.text = String(yourAmount * currency)
+        } else {
+            yourAmount = (yourAmount * 10) + 3
+            displayBar.text = String(yourAmount * currency)
+        }
+    }
+    @IBAction func btn_4(_ sender: UIButton) {
+        if checked == false {
+            yourAmount = 4
+            checked = true
+            displayBar.text = String(yourAmount * currency)
+        } else {
+            yourAmount = (yourAmount * 10) + 4
+            displayBar.text = String(yourAmount * currency)
+        }
+    }
+    @IBAction func btn_5(_ sender: UIButton) {
+        if checked == false {
+            yourAmount = 5
+            checked = true
+            displayBar.text = String(yourAmount * currency)
+        } else {
+            yourAmount = (yourAmount * 10) + 5
+            displayBar.text = String(yourAmount * currency)
+        }
+    }
+    @IBAction func btn_6(_ sender: UIButton) {
+        if checked == false {
+            yourAmount = 6
+            checked = true
+            displayBar.text = String(yourAmount * currency)
+        } else {
+            yourAmount = (yourAmount * 10) + 6
+            displayBar.text = String(yourAmount * currency)
+        }
+    }
+    @IBAction func btn_7(_ sender: UIButton) {
+        if checked == false {
+            yourAmount = 7
+            checked = true
+            displayBar.text = String(yourAmount * currency)
+        } else {
+            yourAmount = (yourAmount * 10) + 7
+            displayBar.text = String(yourAmount * currency)
+        }
+    }
+    @IBAction func btn_8(_ sender: UIButton) {
+        if checked == false {
+            yourAmount = 8
+            checked = true
+            displayBar.text = String(yourAmount * currency)
+        } else {
+            yourAmount = (yourAmount * 10) + 8
+            displayBar.text = String(yourAmount * currency)
+        }
+    }
+    @IBAction func btn_9(_ sender: UIButton) {
+        if checked == false {
+            yourAmount = 9
+            checked = true
+            displayBar.text = String(yourAmount * currency)
+        } else {
+            yourAmount = (yourAmount * 10) + 9
+            displayBar.text = String(yourAmount * currency)
+        }
+    }
+    @IBAction func btn_0(_ sender: UIButton) {
+        if checked == false {
+            yourAmount = 0
+            checked = true
+            displayBar.text = String(yourAmount * currency)
+        } else {
+            yourAmount = (yourAmount * 10) + 0
+            displayBar.text = String(yourAmount * currency)
+        }
+    }
+    @IBAction func btn_c(_ sender: UIButton) {
+        self.yourAmount = 0
+        checked = false
+        displayBar.text = "--"
+    }
+}
+
+extension TodayViewController {
     
 }
