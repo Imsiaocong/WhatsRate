@@ -7,382 +7,407 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10080910FA0A8D1EF694DC8B3BBCA444 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		121967E84096A7510358B364FB096ABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		15A207DD38ADF086152D7BA3280DF33E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */; };
-		2BD4E04A693B070EDCDF868A097853E9 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */; };
-		58E8AEBD22417BB36BCEA0D017577B18 /* Pods-WhatsRate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D5553C254C554DA887AC8EB9771AEB /* Pods-WhatsRate-dummy.m */; };
-		67A0BAEEA52FB09384266B0A2C2DAF64 /* Pods-WhatsRateWidget-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA2466A929C945D15C4A5F8ACBEE448 /* Pods-WhatsRateWidget-dummy.m */; };
-		6C3F45ED6886A4EE47ACCF163AB51694 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F8D66E15CDCBA879125D3EB51BAE335 /* Pods-WhatsRate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F52C582F0C3A2A580941533FAFB492D /* Pods-WhatsRate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C7300AE568B35152CCE4551A143D28E /* Pods-WhatsRateTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 514C6049EE7BDB7D042888224700F81A /* Pods-WhatsRateTests-dummy.m */; };
-		9E7A27A2490C10B638912ADE455E014B /* Pods-WhatsRateUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7849D999663F28AF8E00CAEDEEB5FB14 /* Pods-WhatsRateUITests-dummy.m */; };
-		C6CC23F881B94C5FFB0EC245232DEDA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		CACF720E715E775A0C8DCBAB414037AF /* Pods-WhatsRateWidget-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5864ABEF8AE17FBB2C593D6473AD92C /* Pods-WhatsRateWidget-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCFCAF0CB265BED5371A678C0D7CAFE7 /* Pods-WhatsRateUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE173E77AB329B4533868EFB98E38D1 /* Pods-WhatsRateUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7CD12C326473F72E9F4271F502C3D1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		F0AC2A16F35365BF9F36B643D3C5B4A8 /* Pods-WhatsRateTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 293022B5470B9C59D83AEDCBEBB0BCD8 /* Pods-WhatsRateTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4E3064E9BD03C37AD09B5DEFB034CF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C66A9CAE176AAB72C4576E0BE4BD54C /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E473AEF89063E3384C91DA34E0D9B36B /* SwiftyJSON-dummy.m */; };
+		464450D037D17ED5EE2322E180A6A9F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6F1CC43EAB3CBBAE0253516E4AE78E60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		718116DF6A6AED93DE2B9AEE7A1F7547 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7586FEBB76B809BAC3B4A111CCEA648C /* Pods-WhatsRateUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D83A1FB669E3A9C51B83612D5B01D03C /* Pods-WhatsRateUITests-dummy.m */; };
+		7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDBD0D3576836D87BFE122FD7BA5E07 /* SwiftyJSON.swift */; };
+		843A5884559775FE4944053CB9BBB835 /* Pods-WhatsRateWidget-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE8D5E4A5C080799B30D3687FFBE489 /* Pods-WhatsRateWidget-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADEBD124D2AF9BEF1574075F2640DBA4 /* Pods-WhatsRate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5F9AEFB7821D7358EB1C65D943262 /* Pods-WhatsRate-dummy.m */; };
+		BBFE70033C862812A3EE410C43F96DD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C8E39A1C68B05E33F801FB390739A690 /* Pods-WhatsRate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EFB3B08EDB7FACD7DC1B7E9F1F123C6 /* Pods-WhatsRate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8F92CC5BB1C7EC609D0732DBEAD756D /* Pods-WhatsRateTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 617D6D1F4B3165118E7A6E318DABC5BC /* Pods-WhatsRateTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C96AB0A0B57F3DAD195E52B61BA22F69 /* Pods-WhatsRateUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CAD839778D574998C18DC10BE04D7C /* Pods-WhatsRateUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE5161DEA11E551241FEB3996DE706A6 /* Pods-WhatsRateTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6B239B8E55528116364A08D31CC17E /* Pods-WhatsRateTests-dummy.m */; };
+		CF2E0CFA870245C748DEA743FBD21E6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E0822B2AC178244898C23558ED0CCCAF /* Pods-WhatsRateWidget-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBC2265526B4D31257010CCD120431B /* Pods-WhatsRateWidget-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7104C1DDC949D76C1D1294E104086885 /* PBXContainerItemProxy */ = {
+		0249C1CA569894CA2E696363BDFA7E95 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 70C3F5D7976488E3F5B79CF44676D620;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
 			remoteInfo = SwiftyJSON;
 		};
-		CD5362142CBA159FAF8202BE6C41755D /* PBXContainerItemProxy */ = {
+		0366619190CEB6076999759131E59759 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 70C3F5D7976488E3F5B79CF44676D620;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
 			remoteInfo = SwiftyJSON;
+		};
+		6FBF6ED6028242865EAE1B8EE2FFD75D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBB7CB6F1BC45C24BA0B47CB51817849;
+			remoteInfo = "Pods-WhatsRate";
+		};
+		8853F271A64F500109F10605EF32A5CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBB7CB6F1BC45C24BA0B47CB51817849;
+			remoteInfo = "Pods-WhatsRate";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		087F7B40190C43E4C6C132D1944F9602 /* Pods-WhatsRateTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhatsRateTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0F52C582F0C3A2A580941533FAFB492D /* Pods-WhatsRate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhatsRate-umbrella.h"; sourceTree = "<group>"; };
-		130F2EFA3E97BFF4EA4C93ABE50D2A40 /* Pods-WhatsRateTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WhatsRateTests.modulemap"; sourceTree = "<group>"; };
-		13A0B601667CEA669CE61204AE255376 /* Pods-WhatsRateTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhatsRateTests-resources.sh"; sourceTree = "<group>"; };
-		1897548B4C958F8E57726DE88FA15C5A /* Pods-WhatsRateWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsRateWidget.debug.xcconfig"; sourceTree = "<group>"; };
-		1A6E56BC6C22074BD33AC6F0253E2DC5 /* Pods-WhatsRate-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhatsRate-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1AA2466A929C945D15C4A5F8ACBEE448 /* Pods-WhatsRateWidget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhatsRateWidget-dummy.m"; sourceTree = "<group>"; };
-		1DB5401520B6EE6963AB68C2A7C93139 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		293022B5470B9C59D83AEDCBEBB0BCD8 /* Pods-WhatsRateTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhatsRateTests-umbrella.h"; sourceTree = "<group>"; };
-		2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
-		32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		376F909CCE1497F959B646C5CF7C8C01 /* Pods-WhatsRateWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsRateWidget.release.xcconfig"; sourceTree = "<group>"; };
-		3D2F60067D9CDC755DE74828A62322F3 /* Pods-WhatsRate-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhatsRate-frameworks.sh"; sourceTree = "<group>"; };
-		42AAC2F0E3948125BBE33855D581D2AE /* Pods-WhatsRateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsRateUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		44397BA5802DE2C2568690D763ED7451 /* Pods-WhatsRateUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhatsRateUITests-resources.sh"; sourceTree = "<group>"; };
-		4775FA8AD690D681DFB45C0D83E43B0C /* Pods-WhatsRate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsRate.debug.xcconfig"; sourceTree = "<group>"; };
-		4E94110E8089EBA96E5455C2B427F794 /* Pods_WhatsRate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhatsRate.framework; path = "Pods-WhatsRate.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		514C6049EE7BDB7D042888224700F81A /* Pods-WhatsRateTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhatsRateTests-dummy.m"; sourceTree = "<group>"; };
-		57E12A08FA5C2CD1002BB01EB789A5D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C39552DC5F92400C0876A303FD5194A /* Pods_WhatsRateWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhatsRateWidget.framework; path = "Pods-WhatsRateWidget.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F13B16ABBAA1BDECF38EBB59EAE7665 /* Pods-WhatsRateUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhatsRateUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6A4D033EDCB98BC98F95C0D43EA07C7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EE720118F80AE54C6B990736A3DFD60 /* Pods-WhatsRate-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhatsRate-acknowledgements.plist"; sourceTree = "<group>"; };
-		74F8072682B1DB430BCC80D48CF16458 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7849D999663F28AF8E00CAEDEEB5FB14 /* Pods-WhatsRateUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhatsRateUITests-dummy.m"; sourceTree = "<group>"; };
-		7DE173E77AB329B4533868EFB98E38D1 /* Pods-WhatsRateUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhatsRateUITests-umbrella.h"; sourceTree = "<group>"; };
-		84F318AEF1D580714903FECFEC74E7B2 /* Pods-WhatsRate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsRate.release.xcconfig"; sourceTree = "<group>"; };
-		8D07E5E837C13B1DE5F0B61FFA3DE00D /* Pods-WhatsRateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsRateTests.debug.xcconfig"; sourceTree = "<group>"; };
-		927DD650DF26FE594C8E382A06062D04 /* Pods-WhatsRateTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhatsRateTests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5864ABEF8AE17FBB2C593D6473AD92C /* Pods-WhatsRateWidget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhatsRateWidget-umbrella.h"; sourceTree = "<group>"; };
-		AA187C0B0A525AA55311294F1DDBF850 /* Pods-WhatsRateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsRateUITests.release.xcconfig"; sourceTree = "<group>"; };
-		AAB9572965ED5DA7B594F4E9F61CC90E /* Pods-WhatsRateWidget-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhatsRateWidget-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B0B786060FE5B73959F3AA82819EBB36 /* Pods_WhatsRateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhatsRateUITests.framework; path = "Pods-WhatsRateUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B11861EFEC7992BE6D04CCF488942930 /* Pods-WhatsRateUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WhatsRateUITests.modulemap"; sourceTree = "<group>"; };
-		B2D5553C254C554DA887AC8EB9771AEB /* Pods-WhatsRate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhatsRate-dummy.m"; sourceTree = "<group>"; };
-		BBE3C548C76F31CE0FE13ED429501CE5 /* Pods-WhatsRateTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhatsRateTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BBF610E40BDF6E542FA21FF7E5491205 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
-		BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
-		C17BC702A44260836ABC245ABFBE576F /* Pods-WhatsRateWidget-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhatsRateWidget-acknowledgements.plist"; sourceTree = "<group>"; };
-		C4A9A658C966F6BB111BEDBDEA1F874A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8AB55AFA53106C224EDE4A2FC360309 /* Pods-WhatsRateWidget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WhatsRateWidget.modulemap"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CE8D2B2EFAD7A6D7B8935E2F888FCE01 /* Pods_WhatsRateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhatsRateTests.framework; path = "Pods-WhatsRateTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D032A29E584B77AE187E586922267CF5 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		DE10B079F491B4B653C9917C472EE123 /* Pods-WhatsRateUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhatsRateUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E266DDF13CF213A7E5A42C3ADBF8FBEC /* Pods-WhatsRateUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhatsRateUITests-frameworks.sh"; sourceTree = "<group>"; };
-		EFE1E8C814333261D75375B8A184EE8B /* Pods-WhatsRateWidget-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhatsRateWidget-resources.sh"; sourceTree = "<group>"; };
-		F8587E028196EAC487D1E9B86D9B04D3 /* Pods-WhatsRate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WhatsRate.modulemap"; sourceTree = "<group>"; };
-		FD95DFF92B7CB3B25FB3F8B9E2A56EC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF1FDAD2BA52D7E1D9CC51B8E2804F54 /* Pods-WhatsRateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsRateTests.release.xcconfig"; sourceTree = "<group>"; };
-		FF97C2ED2595A226519B3B860F1EED33 /* Pods-WhatsRate-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhatsRate-resources.sh"; sourceTree = "<group>"; };
+		00C2DFA29552809A5912029E01B9813C /* Pods-WhatsRateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsRateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		05EB2E221DD60B8EFCF51F6CEE4D84ED /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		09CD2B8737F177083AD7DE07A56AE30F /* Pods_WhatsRate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhatsRate.framework; path = "Pods-WhatsRate.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CDBD0D3576836D87BFE122FD7BA5E07 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
+		0F339BFCD286316A5740CD6C471B1B84 /* Pods-WhatsRateWidget-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhatsRateWidget-acknowledgements.markdown"; sourceTree = "<group>"; };
+		122DC677B23470FA24F9C42EB770075A /* Pods-WhatsRate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsRate.debug.xcconfig"; sourceTree = "<group>"; };
+		17F8266FCA5964AB369536597AAAB651 /* Pods-WhatsRate-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhatsRate-frameworks.sh"; sourceTree = "<group>"; };
+		1B401EC026A065994DB71AF66D62BB50 /* Pods-WhatsRate-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhatsRate-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FE8D5E4A5C080799B30D3687FFBE489 /* Pods-WhatsRateWidget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhatsRateWidget-umbrella.h"; sourceTree = "<group>"; };
+		22B04EFBF9A7DAEF295A7031E7028B0E /* Pods_WhatsRateWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhatsRateWidget.framework; path = "Pods-WhatsRateWidget.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22ED15D58B7A8DEE9F9FB604D06A2031 /* Pods-WhatsRate-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhatsRate-acknowledgements.markdown"; sourceTree = "<group>"; };
+		231DD7C069FC071B3DC60B75F50201D8 /* Pods-WhatsRateUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhatsRateUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		26980DB820FFC5F0B0B8B77EBB61CF89 /* Pods-WhatsRateUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhatsRateUITests-Info.plist"; sourceTree = "<group>"; };
+		2DBC2265526B4D31257010CCD120431B /* Pods-WhatsRateWidget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhatsRateWidget-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4B6B239B8E55528116364A08D31CC17E /* Pods-WhatsRateTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhatsRateTests-dummy.m"; sourceTree = "<group>"; };
+		4C66A9CAE176AAB72C4576E0BE4BD54C /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		4EFB3B08EDB7FACD7DC1B7E9F1F123C6 /* Pods-WhatsRate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhatsRate-umbrella.h"; sourceTree = "<group>"; };
+		547D439579140EC0242F0B4BFC9CA77E /* Pods-WhatsRateUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WhatsRateUITests.modulemap"; sourceTree = "<group>"; };
+		571603CA3E54B6CD8547FC7AAB992E07 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		587A7E2611D174991D8899DF0CD9C1AD /* Pods_WhatsRateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhatsRateTests.framework; path = "Pods-WhatsRateTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CDB9297E6386C2D9742266068C94F6 /* Pods-WhatsRate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhatsRate-Info.plist"; sourceTree = "<group>"; };
+		617D6D1F4B3165118E7A6E318DABC5BC /* Pods-WhatsRateTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhatsRateTests-umbrella.h"; sourceTree = "<group>"; };
+		72CAD839778D574998C18DC10BE04D7C /* Pods-WhatsRateUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhatsRateUITests-umbrella.h"; sourceTree = "<group>"; };
+		7A40D68843707A7E42E856361E404D1D /* Pods-WhatsRateWidget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WhatsRateWidget.modulemap"; sourceTree = "<group>"; };
+		7C69B030820A672D137E72EC92938CA5 /* Pods-WhatsRateWidget-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhatsRateWidget-acknowledgements.plist"; sourceTree = "<group>"; };
+		81B3C35738192F9B8A493312142F8BB4 /* Pods-WhatsRateTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhatsRateTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		859B46E5E014D988268E9B380C5B5E68 /* Pods_WhatsRateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhatsRateUITests.framework; path = "Pods-WhatsRateUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		900D1AD80F338E929D1215B5EBD73E3B /* Pods-WhatsRateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsRateTests.release.xcconfig"; sourceTree = "<group>"; };
+		9482BC94BB6A0A2C14CCA1BF2274C577 /* Pods-WhatsRateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsRateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9BBFCA40602A8CD005ECA5B4A5D9ABAD /* Pods-WhatsRate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WhatsRate.modulemap"; sourceTree = "<group>"; };
+		9C5EE70604CF2ECDA3FAB092273C4151 /* Pods-WhatsRateWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsRateWidget.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C4995480AEB01634AFC58AA048B8DBAA /* Pods-WhatsRate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsRate.release.xcconfig"; sourceTree = "<group>"; };
+		C8870EF44D659C5D910FCD44FD8D4696 /* Pods-WhatsRateTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhatsRateTests-Info.plist"; sourceTree = "<group>"; };
+		D11963BFA10846BB2BBDC7A62FFB688F /* Pods-WhatsRateWidget-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhatsRateWidget-Info.plist"; sourceTree = "<group>"; };
+		D83A1FB669E3A9C51B83612D5B01D03C /* Pods-WhatsRateUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhatsRateUITests-dummy.m"; sourceTree = "<group>"; };
+		E06E29E2979CDBEB5F2AD1D03AF329D3 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E473AEF89063E3384C91DA34E0D9B36B /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		E621854A6218A7D04C40C1333901EDC2 /* Pods-WhatsRateUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhatsRateUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6FC7B5510F91FFF23F9F310AB480C45 /* Pods-WhatsRateTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhatsRateTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8473499E91B2D5B0E8BEDA4FEFA70CC /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		F3C86FC94DA705483F53C52F9DCFF734 /* Pods-WhatsRateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsRateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6E81D6715EBE89288C6943F5F9B495A /* Pods-WhatsRateTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WhatsRateTests.modulemap"; sourceTree = "<group>"; };
+		F7A5F9AEFB7821D7358EB1C65D943262 /* Pods-WhatsRate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhatsRate-dummy.m"; sourceTree = "<group>"; };
+		FDFDBA32FB91C3EF9EBDCBBFF031DB4E /* Pods-WhatsRateWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsRateWidget.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		140045CAADFAB4E9CF2DABE0393B9279 /* Frameworks */ = {
+		46433380178BEC270CA70671EACC9416 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4E3064E9BD03C37AD09B5DEFB034CF3 /* Foundation.framework in Frameworks */,
+				CF2E0CFA870245C748DEA743FBD21E6E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		180A6B095F0E853A2859F4DDA5DCF899 /* Frameworks */ = {
+		64F5C15F9F34FCFBC2291613FEB29F3F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6CC23F881B94C5FFB0EC245232DEDA0 /* Foundation.framework in Frameworks */,
+				BBFE70033C862812A3EE410C43F96DD7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6910BEA2B8D236D2DE6DF5A03E29DB03 /* Frameworks */ = {
+		AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7CD12C326473F72E9F4271F502C3D1F /* Foundation.framework in Frameworks */,
+				464450D037D17ED5EE2322E180A6A9F5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A944B7ED4F4947480D0D7F7D7071CAB7 /* Frameworks */ = {
+		CFF82A0F98B4BEE019296DF9B060820B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				121967E84096A7510358B364FB096ABE /* Foundation.framework in Frameworks */,
+				6F1CC43EAB3CBBAE0253516E4AE78E60 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB45BAAEF677FEC8A2DB3062167AB8D0 /* Frameworks */ = {
+		F0DDE417DBC19E6353153CD16780A34C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10080910FA0A8D1EF694DC8B3BBCA444 /* Foundation.framework in Frameworks */,
+				718116DF6A6AED93DE2B9AEE7A1F7547 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		114EAC9D74BF3421A7F68FA8D5CF9C23 /* Targets Support Files */ = {
+		15F131ABF07C09CE75B7655FD5A4816F /* Pods-WhatsRateUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A711B7BB7C0423B2EBBA40C71B453DA0 /* Pods-WhatsRate */,
-				4C4861900C9F7FD4C47329796C5C3FAC /* Pods-WhatsRateTests */,
-				82C0258EEE176F57A99504C206E54909 /* Pods-WhatsRateUITests */,
-				7D683AC35CC2314E8DFED1884504A47D /* Pods-WhatsRateWidget */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		1A9D560281A25E1A2739698ADC8DB69A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4E94110E8089EBA96E5455C2B427F794 /* Pods_WhatsRate.framework */,
-				CE8D2B2EFAD7A6D7B8935E2F888FCE01 /* Pods_WhatsRateTests.framework */,
-				B0B786060FE5B73959F3AA82819EBB36 /* Pods_WhatsRateUITests.framework */,
-				5C39552DC5F92400C0876A303FD5194A /* Pods_WhatsRateWidget.framework */,
-				1DB5401520B6EE6963AB68C2A7C93139 /* SwiftyJSON.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4C4861900C9F7FD4C47329796C5C3FAC /* Pods-WhatsRateTests */ = {
-			isa = PBXGroup;
-			children = (
-				74F8072682B1DB430BCC80D48CF16458 /* Info.plist */,
-				130F2EFA3E97BFF4EA4C93ABE50D2A40 /* Pods-WhatsRateTests.modulemap */,
-				087F7B40190C43E4C6C132D1944F9602 /* Pods-WhatsRateTests-acknowledgements.markdown */,
-				BBE3C548C76F31CE0FE13ED429501CE5 /* Pods-WhatsRateTests-acknowledgements.plist */,
-				514C6049EE7BDB7D042888224700F81A /* Pods-WhatsRateTests-dummy.m */,
-				927DD650DF26FE594C8E382A06062D04 /* Pods-WhatsRateTests-frameworks.sh */,
-				13A0B601667CEA669CE61204AE255376 /* Pods-WhatsRateTests-resources.sh */,
-				293022B5470B9C59D83AEDCBEBB0BCD8 /* Pods-WhatsRateTests-umbrella.h */,
-				8D07E5E837C13B1DE5F0B61FFA3DE00D /* Pods-WhatsRateTests.debug.xcconfig */,
-				FF1FDAD2BA52D7E1D9CC51B8E2804F54 /* Pods-WhatsRateTests.release.xcconfig */,
-			);
-			name = "Pods-WhatsRateTests";
-			path = "Target Support Files/Pods-WhatsRateTests";
-			sourceTree = "<group>";
-		};
-		70A8E4D3C62B6C203D238581DA091C21 /* SwiftyJSON */ = {
-			isa = PBXGroup;
-			children = (
-				BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */,
-				8EC39E1DC11846207722B71AAFE40F98 /* Support Files */,
-			);
-			name = SwiftyJSON;
-			path = SwiftyJSON;
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7D683AC35CC2314E8DFED1884504A47D /* Pods-WhatsRateWidget */ = {
-			isa = PBXGroup;
-			children = (
-				6A4D033EDCB98BC98F95C0D43EA07C7B /* Info.plist */,
-				C8AB55AFA53106C224EDE4A2FC360309 /* Pods-WhatsRateWidget.modulemap */,
-				AAB9572965ED5DA7B594F4E9F61CC90E /* Pods-WhatsRateWidget-acknowledgements.markdown */,
-				C17BC702A44260836ABC245ABFBE576F /* Pods-WhatsRateWidget-acknowledgements.plist */,
-				1AA2466A929C945D15C4A5F8ACBEE448 /* Pods-WhatsRateWidget-dummy.m */,
-				EFE1E8C814333261D75375B8A184EE8B /* Pods-WhatsRateWidget-resources.sh */,
-				A5864ABEF8AE17FBB2C593D6473AD92C /* Pods-WhatsRateWidget-umbrella.h */,
-				1897548B4C958F8E57726DE88FA15C5A /* Pods-WhatsRateWidget.debug.xcconfig */,
-				376F909CCE1497F959B646C5CF7C8C01 /* Pods-WhatsRateWidget.release.xcconfig */,
-			);
-			name = "Pods-WhatsRateWidget";
-			path = "Target Support Files/Pods-WhatsRateWidget";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */,
-				1A9D560281A25E1A2739698ADC8DB69A /* Products */,
-				114EAC9D74BF3421A7F68FA8D5CF9C23 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		82C0258EEE176F57A99504C206E54909 /* Pods-WhatsRateUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FD95DFF92B7CB3B25FB3F8B9E2A56EC3 /* Info.plist */,
-				B11861EFEC7992BE6D04CCF488942930 /* Pods-WhatsRateUITests.modulemap */,
-				5F13B16ABBAA1BDECF38EBB59EAE7665 /* Pods-WhatsRateUITests-acknowledgements.markdown */,
-				DE10B079F491B4B653C9917C472EE123 /* Pods-WhatsRateUITests-acknowledgements.plist */,
-				7849D999663F28AF8E00CAEDEEB5FB14 /* Pods-WhatsRateUITests-dummy.m */,
-				E266DDF13CF213A7E5A42C3ADBF8FBEC /* Pods-WhatsRateUITests-frameworks.sh */,
-				44397BA5802DE2C2568690D763ED7451 /* Pods-WhatsRateUITests-resources.sh */,
-				7DE173E77AB329B4533868EFB98E38D1 /* Pods-WhatsRateUITests-umbrella.h */,
-				42AAC2F0E3948125BBE33855D581D2AE /* Pods-WhatsRateUITests.debug.xcconfig */,
-				AA187C0B0A525AA55311294F1DDBF850 /* Pods-WhatsRateUITests.release.xcconfig */,
+				547D439579140EC0242F0B4BFC9CA77E /* Pods-WhatsRateUITests.modulemap */,
+				E621854A6218A7D04C40C1333901EDC2 /* Pods-WhatsRateUITests-acknowledgements.markdown */,
+				231DD7C069FC071B3DC60B75F50201D8 /* Pods-WhatsRateUITests-acknowledgements.plist */,
+				D83A1FB669E3A9C51B83612D5B01D03C /* Pods-WhatsRateUITests-dummy.m */,
+				26980DB820FFC5F0B0B8B77EBB61CF89 /* Pods-WhatsRateUITests-Info.plist */,
+				72CAD839778D574998C18DC10BE04D7C /* Pods-WhatsRateUITests-umbrella.h */,
+				00C2DFA29552809A5912029E01B9813C /* Pods-WhatsRateUITests.debug.xcconfig */,
+				9482BC94BB6A0A2C14CCA1BF2274C577 /* Pods-WhatsRateUITests.release.xcconfig */,
 			);
 			name = "Pods-WhatsRateUITests";
 			path = "Target Support Files/Pods-WhatsRateUITests";
 			sourceTree = "<group>";
 		};
-		8EC39E1DC11846207722B71AAFE40F98 /* Support Files */ = {
+		2C6A71D462ED46C2A7F74D962134DC74 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C4A9A658C966F6BB111BEDBDEA1F874A /* Info.plist */,
-				D032A29E584B77AE187E586922267CF5 /* SwiftyJSON.modulemap */,
-				2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */,
-				32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */,
-				BBF610E40BDF6E542FA21FF7E5491205 /* SwiftyJSON-prefix.pch */,
-				05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */,
+				36AB58DCE8747D206B69D48084D7CBB2 /* SwiftyJSON */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyJSON";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		A711B7BB7C0423B2EBBA40C71B453DA0 /* Pods-WhatsRate */ = {
+		36AB58DCE8747D206B69D48084D7CBB2 /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
-				57E12A08FA5C2CD1002BB01EB789A5D0 /* Info.plist */,
-				F8587E028196EAC487D1E9B86D9B04D3 /* Pods-WhatsRate.modulemap */,
-				1A6E56BC6C22074BD33AC6F0253E2DC5 /* Pods-WhatsRate-acknowledgements.markdown */,
-				6EE720118F80AE54C6B990736A3DFD60 /* Pods-WhatsRate-acknowledgements.plist */,
-				B2D5553C254C554DA887AC8EB9771AEB /* Pods-WhatsRate-dummy.m */,
-				3D2F60067D9CDC755DE74828A62322F3 /* Pods-WhatsRate-frameworks.sh */,
-				FF97C2ED2595A226519B3B860F1EED33 /* Pods-WhatsRate-resources.sh */,
-				0F52C582F0C3A2A580941533FAFB492D /* Pods-WhatsRate-umbrella.h */,
-				4775FA8AD690D681DFB45C0D83E43B0C /* Pods-WhatsRate.debug.xcconfig */,
-				84F318AEF1D580714903FECFEC74E7B2 /* Pods-WhatsRate.release.xcconfig */,
+				0CDBD0D3576836D87BFE122FD7BA5E07 /* SwiftyJSON.swift */,
+				FF2248F76C1F51163F78F4C1DED1A044 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		47EB88325DF3174DB1C68198A4567227 /* Pods-WhatsRateWidget */ = {
+			isa = PBXGroup;
+			children = (
+				7A40D68843707A7E42E856361E404D1D /* Pods-WhatsRateWidget.modulemap */,
+				0F339BFCD286316A5740CD6C471B1B84 /* Pods-WhatsRateWidget-acknowledgements.markdown */,
+				7C69B030820A672D137E72EC92938CA5 /* Pods-WhatsRateWidget-acknowledgements.plist */,
+				2DBC2265526B4D31257010CCD120431B /* Pods-WhatsRateWidget-dummy.m */,
+				D11963BFA10846BB2BBDC7A62FFB688F /* Pods-WhatsRateWidget-Info.plist */,
+				1FE8D5E4A5C080799B30D3687FFBE489 /* Pods-WhatsRateWidget-umbrella.h */,
+				9C5EE70604CF2ECDA3FAB092273C4151 /* Pods-WhatsRateWidget.debug.xcconfig */,
+				FDFDBA32FB91C3EF9EBDCBBFF031DB4E /* Pods-WhatsRateWidget.release.xcconfig */,
+			);
+			name = "Pods-WhatsRateWidget";
+			path = "Target Support Files/Pods-WhatsRateWidget";
+			sourceTree = "<group>";
+		};
+		6F66C45F3085CDFD0080873FA4C7A3E8 /* Pods-WhatsRate */ = {
+			isa = PBXGroup;
+			children = (
+				9BBFCA40602A8CD005ECA5B4A5D9ABAD /* Pods-WhatsRate.modulemap */,
+				22ED15D58B7A8DEE9F9FB604D06A2031 /* Pods-WhatsRate-acknowledgements.markdown */,
+				1B401EC026A065994DB71AF66D62BB50 /* Pods-WhatsRate-acknowledgements.plist */,
+				F7A5F9AEFB7821D7358EB1C65D943262 /* Pods-WhatsRate-dummy.m */,
+				17F8266FCA5964AB369536597AAAB651 /* Pods-WhatsRate-frameworks.sh */,
+				58CDB9297E6386C2D9742266068C94F6 /* Pods-WhatsRate-Info.plist */,
+				4EFB3B08EDB7FACD7DC1B7E9F1F123C6 /* Pods-WhatsRate-umbrella.h */,
+				122DC677B23470FA24F9C42EB770075A /* Pods-WhatsRate.debug.xcconfig */,
+				C4995480AEB01634AFC58AA048B8DBAA /* Pods-WhatsRate.release.xcconfig */,
 			);
 			name = "Pods-WhatsRate";
 			path = "Target Support Files/Pods-WhatsRate";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A32C3CE7FC67E8E72B73B70FD976C72C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				6F66C45F3085CDFD0080873FA4C7A3E8 /* Pods-WhatsRate */,
+				C88089269B7181C62BD411774F332320 /* Pods-WhatsRateTests */,
+				15F131ABF07C09CE75B7655FD5A4816F /* Pods-WhatsRateUITests */,
+				47EB88325DF3174DB1C68198A4567227 /* Pods-WhatsRateWidget */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C88089269B7181C62BD411774F332320 /* Pods-WhatsRateTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6E81D6715EBE89288C6943F5F9B495A /* Pods-WhatsRateTests.modulemap */,
+				E6FC7B5510F91FFF23F9F310AB480C45 /* Pods-WhatsRateTests-acknowledgements.markdown */,
+				81B3C35738192F9B8A493312142F8BB4 /* Pods-WhatsRateTests-acknowledgements.plist */,
+				4B6B239B8E55528116364A08D31CC17E /* Pods-WhatsRateTests-dummy.m */,
+				C8870EF44D659C5D910FCD44FD8D4696 /* Pods-WhatsRateTests-Info.plist */,
+				617D6D1F4B3165118E7A6E318DABC5BC /* Pods-WhatsRateTests-umbrella.h */,
+				F3C86FC94DA705483F53C52F9DCFF734 /* Pods-WhatsRateTests.debug.xcconfig */,
+				900D1AD80F338E929D1215B5EBD73E3B /* Pods-WhatsRateTests.release.xcconfig */,
+			);
+			name = "Pods-WhatsRateTests";
+			path = "Target Support Files/Pods-WhatsRateTests";
+			sourceTree = "<group>";
+		};
+		CE39E7B2C48E50FD945F21CB36847C56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09CD2B8737F177083AD7DE07A56AE30F /* Pods_WhatsRate.framework */,
+				587A7E2611D174991D8899DF0CD9C1AD /* Pods_WhatsRateTests.framework */,
+				859B46E5E014D988268E9B380C5B5E68 /* Pods_WhatsRateUITests.framework */,
+				22B04EFBF9A7DAEF295A7031E7028B0E /* Pods_WhatsRateWidget.framework */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2C6A71D462ED46C2A7F74D962134DC74 /* Pods */,
+				CE39E7B2C48E50FD945F21CB36847C56 /* Products */,
+				A32C3CE7FC67E8E72B73B70FD976C72C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */ = {
+		FF2248F76C1F51163F78F4C1DED1A044 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				70A8E4D3C62B6C203D238581DA091C21 /* SwiftyJSON */,
+				05EB2E221DD60B8EFCF51F6CEE4D84ED /* SwiftyJSON.modulemap */,
+				E06E29E2979CDBEB5F2AD1D03AF329D3 /* SwiftyJSON.xcconfig */,
+				E473AEF89063E3384C91DA34E0D9B36B /* SwiftyJSON-dummy.m */,
+				E8473499E91B2D5B0E8BEDA4FEFA70CC /* SwiftyJSON-Info.plist */,
+				571603CA3E54B6CD8547FC7AAB992E07 /* SwiftyJSON-prefix.pch */,
+				4C66A9CAE176AAB72C4576E0BE4BD54C /* SwiftyJSON-umbrella.h */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		24FFFFAE606173B0C6126D475EB12114 /* Headers */ = {
+		14E1231544D4D170BEB75A2CE24CE346 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C3F45ED6886A4EE47ACCF163AB51694 /* SwiftyJSON-umbrella.h in Headers */,
+				843A5884559775FE4944053CB9BBB835 /* Pods-WhatsRateWidget-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D428E71F393D8B7F90876EC8C07A131 /* Headers */ = {
+		3644E0E4CE1139BB03C6FAEB2C4DB395 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCFCAF0CB265BED5371A678C0D7CAFE7 /* Pods-WhatsRateUITests-umbrella.h in Headers */,
+				C96AB0A0B57F3DAD195E52B61BA22F69 /* Pods-WhatsRateUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BD3386020CCDE3FC920F0904E7A7707 /* Headers */ = {
+		3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0AC2A16F35365BF9F36B643D3C5B4A8 /* Pods-WhatsRateTests-umbrella.h in Headers */,
+				1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C151CB4803CA40DBAC85311E94F6D54E /* Headers */ = {
+		4BA8D76769504C3B38416D08ED1C2571 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F8D66E15CDCBA879125D3EB51BAE335 /* Pods-WhatsRate-umbrella.h in Headers */,
+				C8F92CC5BB1C7EC609D0732DBEAD756D /* Pods-WhatsRateTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C26A593AD1A747E125512CC4FA25E47F /* Headers */ = {
+		B658B50C8B7BC0EFEFE3B4A17AF2ECDA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CACF720E715E775A0C8DCBAB414037AF /* Pods-WhatsRateWidget-umbrella.h in Headers */,
+				C8E39A1C68B05E33F801FB390739A690 /* Pods-WhatsRate-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		052B47305B191B853C65000019ED38C5 /* Pods-WhatsRate */ = {
+		96E421D826EE3280FEEF2659B5D98B8E /* Pods-WhatsRateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5524188AF9C9400FB78744DF8560EBAE /* Build configuration list for PBXNativeTarget "Pods-WhatsRate" */;
+			buildConfigurationList = A9D83ABEABC078AF8621FAF5712DF80F /* Build configuration list for PBXNativeTarget "Pods-WhatsRateTests" */;
 			buildPhases = (
-				C5027611B2851B24496DF4EE5232FA0B /* Sources */,
-				180A6B095F0E853A2859F4DDA5DCF899 /* Frameworks */,
-				C151CB4803CA40DBAC85311E94F6D54E /* Headers */,
+				4BA8D76769504C3B38416D08ED1C2571 /* Headers */,
+				6810F3FDA5687127ED56829444C27CD6 /* Sources */,
+				CFF82A0F98B4BEE019296DF9B060820B /* Frameworks */,
+				ED61679E3307157D69E027F80285F38E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C3ABA163EB08D3697B89C5B766685077 /* PBXTargetDependency */,
-			);
-			name = "Pods-WhatsRate";
-			productName = "Pods-WhatsRate";
-			productReference = 4E94110E8089EBA96E5455C2B427F794 /* Pods_WhatsRate.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		172C30655A7D234D0C39ED422CF5D0D0 /* Pods-WhatsRateTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 56E47E259911729D7209DBCF2ADA4486 /* Build configuration list for PBXNativeTarget "Pods-WhatsRateTests" */;
-			buildPhases = (
-				4425B8B8F8E3E7EE0497B7A67F67FD61 /* Sources */,
-				FB45BAAEF677FEC8A2DB3062167AB8D0 /* Frameworks */,
-				8BD3386020CCDE3FC920F0904E7A7707 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				7F3010DCA82EEB6466BD1FE3FC5AD72C /* PBXTargetDependency */,
 			);
 			name = "Pods-WhatsRateTests";
 			productName = "Pods-WhatsRateTests";
-			productReference = CE8D2B2EFAD7A6D7B8935E2F888FCE01 /* Pods_WhatsRateTests.framework */;
+			productReference = 587A7E2611D174991D8899DF0CD9C1AD /* Pods_WhatsRateTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		70C3F5D7976488E3F5B79CF44676D620 /* SwiftyJSON */ = {
+		A04FDBB00097625FC7E7CCDCA6A3C43F /* Pods-WhatsRateUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 157D34102F4EF9776128A14BA412847C /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildConfigurationList = A04C8BC3AC4D3C94C72DAFC373CE4647 /* Build configuration list for PBXNativeTarget "Pods-WhatsRateUITests" */;
 			buildPhases = (
-				8931D9D795FA4BD2AAEAA8B440B28B6B /* Sources */,
-				6910BEA2B8D236D2DE6DF5A03E29DB03 /* Frameworks */,
-				24FFFFAE606173B0C6126D475EB12114 /* Headers */,
+				3644E0E4CE1139BB03C6FAEB2C4DB395 /* Headers */,
+				199531BBBC75D1D58ADFB9F4DDB5D2CA /* Sources */,
+				F0DDE417DBC19E6353153CD16780A34C /* Frameworks */,
+				73281B609A3BDC636DCACD7F7D8BB475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3B363D9FF13348E474D2CF5E779A133 /* PBXTargetDependency */,
+			);
+			name = "Pods-WhatsRateUITests";
+			productName = "Pods-WhatsRateUITests";
+			productReference = 859B46E5E014D988268E9B380C5B5E68 /* Pods_WhatsRateUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A08D280CB353431D6B318D3DC743F084 /* Pods-WhatsRateWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E2620B02180F92062C2D01CAB756FEC /* Build configuration list for PBXNativeTarget "Pods-WhatsRateWidget" */;
+			buildPhases = (
+				14E1231544D4D170BEB75A2CE24CE346 /* Headers */,
+				F94D9215EA91BF60AA34DED8433338EC /* Sources */,
+				46433380178BEC270CA70671EACC9416 /* Frameworks */,
+				B25E0D6D7F5607A817F5CB9E8FC8AE39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CC693C8AB124474694C540ECC1C8674 /* PBXTargetDependency */,
+			);
+			name = "Pods-WhatsRateWidget";
+			productName = "Pods-WhatsRateWidget";
+			productReference = 22B04EFBF9A7DAEF295A7031E7028B0E /* Pods_WhatsRateWidget.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */,
+				1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */,
+				AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */,
+				D098F7F0080A87A1F472C81FC2F85528 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -390,304 +415,289 @@
 			);
 			name = SwiftyJSON;
 			productName = SwiftyJSON;
-			productReference = 1DB5401520B6EE6963AB68C2A7C93139 /* SwiftyJSON.framework */;
+			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C2F2B3FDC2744427E62CB3C6C6F23BA9 /* Pods-WhatsRateWidget */ = {
+		EBB7CB6F1BC45C24BA0B47CB51817849 /* Pods-WhatsRate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 633AF10BC5B5D481D7CEF791DBAF2B36 /* Build configuration list for PBXNativeTarget "Pods-WhatsRateWidget" */;
+			buildConfigurationList = 036726DA3661D728361318DACFB49C04 /* Build configuration list for PBXNativeTarget "Pods-WhatsRate" */;
 			buildPhases = (
-				F54940F0F65A5E0C33F7DFE2615A9DD8 /* Sources */,
-				A944B7ED4F4947480D0D7F7D7071CAB7 /* Frameworks */,
-				C26A593AD1A747E125512CC4FA25E47F /* Headers */,
+				B658B50C8B7BC0EFEFE3B4A17AF2ECDA /* Headers */,
+				013BF14331EA53033A886CF700910E35 /* Sources */,
+				64F5C15F9F34FCFBC2291613FEB29F3F /* Frameworks */,
+				514CCF5E94F214B8FEDAFCAF42B87812 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4F395D049DBEEB19F65C3A365F5192B6 /* PBXTargetDependency */,
+				4035252BE7C02C732A333DAF74103C93 /* PBXTargetDependency */,
 			);
-			name = "Pods-WhatsRateWidget";
-			productName = "Pods-WhatsRateWidget";
-			productReference = 5C39552DC5F92400C0876A303FD5194A /* Pods_WhatsRateWidget.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E720197919C44D0981F93A7705EF1CD5 /* Pods-WhatsRateUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FDD82DAC7EA6213057340E370B1E43D7 /* Build configuration list for PBXNativeTarget "Pods-WhatsRateUITests" */;
-			buildPhases = (
-				E63D8E8C32DC594242A9C28A16F66F74 /* Sources */,
-				140045CAADFAB4E9CF2DABE0393B9279 /* Frameworks */,
-				4D428E71F393D8B7F90876EC8C07A131 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-WhatsRateUITests";
-			productName = "Pods-WhatsRateUITests";
-			productReference = B0B786060FE5B73959F3AA82819EBB36 /* Pods_WhatsRateUITests.framework */;
+			name = "Pods-WhatsRate";
+			productName = "Pods-WhatsRate";
+			productReference = 09CD2B8737F177083AD7DE07A56AE30F /* Pods_WhatsRate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1A9D560281A25E1A2739698ADC8DB69A /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CE39E7B2C48E50FD945F21CB36847C56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				052B47305B191B853C65000019ED38C5 /* Pods-WhatsRate */,
-				172C30655A7D234D0C39ED422CF5D0D0 /* Pods-WhatsRateTests */,
-				E720197919C44D0981F93A7705EF1CD5 /* Pods-WhatsRateUITests */,
-				C2F2B3FDC2744427E62CB3C6C6F23BA9 /* Pods-WhatsRateWidget */,
-				70C3F5D7976488E3F5B79CF44676D620 /* SwiftyJSON */,
+				EBB7CB6F1BC45C24BA0B47CB51817849 /* Pods-WhatsRate */,
+				96E421D826EE3280FEEF2659B5D98B8E /* Pods-WhatsRateTests */,
+				A04FDBB00097625FC7E7CCDCA6A3C43F /* Pods-WhatsRateUITests */,
+				A08D280CB353431D6B318D3DC743F084 /* Pods-WhatsRateWidget */,
+				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		514CCF5E94F214B8FEDAFCAF42B87812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73281B609A3BDC636DCACD7F7D8BB475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25E0D6D7F5607A817F5CB9E8FC8AE39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D098F7F0080A87A1F472C81FC2F85528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED61679E3307157D69E027F80285F38E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		4425B8B8F8E3E7EE0497B7A67F67FD61 /* Sources */ = {
+		013BF14331EA53033A886CF700910E35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C7300AE568B35152CCE4551A143D28E /* Pods-WhatsRateTests-dummy.m in Sources */,
+				ADEBD124D2AF9BEF1574075F2640DBA4 /* Pods-WhatsRate-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8931D9D795FA4BD2AAEAA8B440B28B6B /* Sources */ = {
+		1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BD4E04A693B070EDCDF868A097853E9 /* SwiftyJSON-dummy.m in Sources */,
-				15A207DD38ADF086152D7BA3280DF33E /* SwiftyJSON.swift in Sources */,
+				2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */,
+				7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5027611B2851B24496DF4EE5232FA0B /* Sources */ = {
+		199531BBBC75D1D58ADFB9F4DDB5D2CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58E8AEBD22417BB36BCEA0D017577B18 /* Pods-WhatsRate-dummy.m in Sources */,
+				7586FEBB76B809BAC3B4A111CCEA648C /* Pods-WhatsRateUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E63D8E8C32DC594242A9C28A16F66F74 /* Sources */ = {
+		6810F3FDA5687127ED56829444C27CD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E7A27A2490C10B638912ADE455E014B /* Pods-WhatsRateUITests-dummy.m in Sources */,
+				CE5161DEA11E551241FEB3996DE706A6 /* Pods-WhatsRateTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F54940F0F65A5E0C33F7DFE2615A9DD8 /* Sources */ = {
+		F94D9215EA91BF60AA34DED8433338EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67A0BAEEA52FB09384266B0A2C2DAF64 /* Pods-WhatsRateWidget-dummy.m in Sources */,
+				E0822B2AC178244898C23558ED0CCCAF /* Pods-WhatsRateWidget-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4F395D049DBEEB19F65C3A365F5192B6 /* PBXTargetDependency */ = {
+		0CC693C8AB124474694C540ECC1C8674 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyJSON;
-			target = 70C3F5D7976488E3F5B79CF44676D620 /* SwiftyJSON */;
-			targetProxy = 7104C1DDC949D76C1D1294E104086885 /* PBXContainerItemProxy */;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = 0249C1CA569894CA2E696363BDFA7E95 /* PBXContainerItemProxy */;
 		};
-		C3ABA163EB08D3697B89C5B766685077 /* PBXTargetDependency */ = {
+		4035252BE7C02C732A333DAF74103C93 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyJSON;
-			target = 70C3F5D7976488E3F5B79CF44676D620 /* SwiftyJSON */;
-			targetProxy = CD5362142CBA159FAF8202BE6C41755D /* PBXContainerItemProxy */;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = 0366619190CEB6076999759131E59759 /* PBXContainerItemProxy */;
+		};
+		7F3010DCA82EEB6466BD1FE3FC5AD72C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WhatsRate";
+			target = EBB7CB6F1BC45C24BA0B47CB51817849 /* Pods-WhatsRate */;
+			targetProxy = 6FBF6ED6028242865EAE1B8EE2FFD75D /* PBXContainerItemProxy */;
+		};
+		E3B363D9FF13348E474D2CF5E779A133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WhatsRate";
+			target = EBB7CB6F1BC45C24BA0B47CB51817849 /* Pods-WhatsRate */;
+			targetProxy = 8853F271A64F500109F10605EF32A5CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05597262D499DEB7ADC91F493335A4CA /* Release */ = {
+		0DE092983ED2606A7AAD5497579D0D46 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 376F909CCE1497F959B646C5CF7C8C01 /* Pods-WhatsRateWidget.release.xcconfig */;
+			baseConfigurationReference = 00C2DFA29552809A5912029E01B9813C /* Pods-WhatsRateUITests.debug.xcconfig */;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WhatsRateWidget/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WhatsRateWidget/Pods-WhatsRateWidget.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WhatsRateWidget;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3065070F64EF043A65FBD50E4CECB114 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA187C0B0A525AA55311294F1DDBF850 /* Pods-WhatsRateUITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WhatsRateUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WhatsRateUITests/Pods-WhatsRateUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WhatsRateUITests/Pods-WhatsRateUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WhatsRateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		495E0E845C84B30E6CD2D9757BB735F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1897548B4C958F8E57726DE88FA15C5A /* Pods-WhatsRateWidget.debug.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WhatsRateWidget/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WhatsRateWidget/Pods-WhatsRateWidget.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WhatsRateWidget;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		8BCE0CFC64D65D304772A5ADB0A508AB /* Release */ = {
+		2D57138D7EFEC36C0D8DC58CB658466D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF1FDAD2BA52D7E1D9CC51B8E2804F54 /* Pods-WhatsRateTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		53E6B71B82F13E8F455AFD3271B18158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C86FC94DA705483F53C52F9DCFF734 /* Pods-WhatsRateTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WhatsRateTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WhatsRateTests/Pods-WhatsRateTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WhatsRateTests/Pods-WhatsRateTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WhatsRateTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9B17ACE1705F75B17E53AA5EEE32CFCF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42AAC2F0E3948125BBE33855D581D2AE /* Pods-WhatsRateUITests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WhatsRateUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WhatsRateUITests/Pods-WhatsRateUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WhatsRateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -696,321 +706,399 @@
 			};
 			name = Debug;
 		};
-		C1338EE136DA5950373C5E8F3BD62497 /* Release */ = {
+		6130E2C4C0502595DE3E36C6C01D6F2E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84F318AEF1D580714903FECFEC74E7B2 /* Pods-WhatsRate.release.xcconfig */;
+			baseConfigurationReference = 9482BC94BB6A0A2C14CCA1BF2274C577 /* Pods-WhatsRateUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WhatsRate/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WhatsRateUITests/Pods-WhatsRateUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WhatsRateUITests/Pods-WhatsRateUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E2226BAF771B9AEEA8FE646C18E7879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06E29E2979CDBEB5F2AD1D03AF329D3 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7628F698C9A254469F69726FB624007F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 122DC677B23470FA24F9C42EB770075A /* Pods-WhatsRate.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WhatsRate/Pods-WhatsRate-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WhatsRate/Pods-WhatsRate.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WhatsRate;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+		86124AB57E6E490D2C47A86F0A5BAF7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		D3142EB7F9EA3573B67B6B5B1BA7896F /* Debug */ = {
+		A158485D82E4643004149C08E3079BC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D07E5E837C13B1DE5F0B61FFA3DE00D /* Pods-WhatsRateTests.debug.xcconfig */;
+			baseConfigurationReference = 9C5EE70604CF2ECDA3FAB092273C4151 /* Pods-WhatsRateWidget.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WhatsRateTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WhatsRateWidget/Pods-WhatsRateWidget-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WhatsRateWidget/Pods-WhatsRateWidget.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B1922F0764C02B17B81BCFA0E84F70E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900D1AD80F338E929D1215B5EBD73E3B /* Pods-WhatsRateTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WhatsRateTests/Pods-WhatsRateTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WhatsRateTests/Pods-WhatsRateTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WhatsRateTests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		D6E518286D822799CCFE31A50717ECE5 /* Debug */ = {
+		C3868539C3C6EC7B0233F264DF833EF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4775FA8AD690D681DFB45C0D83E43B0C /* Pods-WhatsRate.debug.xcconfig */;
+			baseConfigurationReference = C4995480AEB01634AFC58AA048B8DBAA /* Pods-WhatsRate.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WhatsRate/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WhatsRate/Pods-WhatsRate-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WhatsRate/Pods-WhatsRate.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WhatsRate;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E71BB039E5430DDB2E76F9EC30581D13 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EB9222025FA5828B394257614D91DCE0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		D509D2C4CF6F4BAC999CDA0FB4583B8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDFDBA32FB91C3EF9EBDCBBFF031DB4E /* Pods-WhatsRateWidget.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WhatsRateWidget/Pods-WhatsRateWidget-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WhatsRateWidget/Pods-WhatsRateWidget.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8F35927ECB754A46E0AC8C2BACAF32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06E29E2979CDBEB5F2AD1D03AF329D3 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		157D34102F4EF9776128A14BA412847C /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+		036726DA3661D728361318DACFB49C04 /* Build configuration list for PBXNativeTarget "Pods-WhatsRate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E71BB039E5430DDB2E76F9EC30581D13 /* Debug */,
-				EB9222025FA5828B394257614D91DCE0 /* Release */,
+				7628F698C9A254469F69726FB624007F /* Debug */,
+				C3868539C3C6EC7B0233F264DF833EF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
-				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+				86124AB57E6E490D2C47A86F0A5BAF7D /* Debug */,
+				2D57138D7EFEC36C0D8DC58CB658466D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5524188AF9C9400FB78744DF8560EBAE /* Build configuration list for PBXNativeTarget "Pods-WhatsRate" */ = {
+		62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6E518286D822799CCFE31A50717ECE5 /* Debug */,
-				C1338EE136DA5950373C5E8F3BD62497 /* Release */,
+				E8F35927ECB754A46E0AC8C2BACAF32D /* Debug */,
+				6E2226BAF771B9AEEA8FE646C18E7879 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56E47E259911729D7209DBCF2ADA4486 /* Build configuration list for PBXNativeTarget "Pods-WhatsRateTests" */ = {
+		7E2620B02180F92062C2D01CAB756FEC /* Build configuration list for PBXNativeTarget "Pods-WhatsRateWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3142EB7F9EA3573B67B6B5B1BA7896F /* Debug */,
-				8BCE0CFC64D65D304772A5ADB0A508AB /* Release */,
+				A158485D82E4643004149C08E3079BC2 /* Debug */,
+				D509D2C4CF6F4BAC999CDA0FB4583B8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		633AF10BC5B5D481D7CEF791DBAF2B36 /* Build configuration list for PBXNativeTarget "Pods-WhatsRateWidget" */ = {
+		A04C8BC3AC4D3C94C72DAFC373CE4647 /* Build configuration list for PBXNativeTarget "Pods-WhatsRateUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				495E0E845C84B30E6CD2D9757BB735F8 /* Debug */,
-				05597262D499DEB7ADC91F493335A4CA /* Release */,
+				0DE092983ED2606A7AAD5497579D0D46 /* Debug */,
+				6130E2C4C0502595DE3E36C6C01D6F2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDD82DAC7EA6213057340E370B1E43D7 /* Build configuration list for PBXNativeTarget "Pods-WhatsRateUITests" */ = {
+		A9D83ABEABC078AF8621FAF5712DF80F /* Build configuration list for PBXNativeTarget "Pods-WhatsRateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B17ACE1705F75B17E53AA5EEE32CFCF /* Debug */,
-				3065070F64EF043A65FBD50E4CECB114 /* Release */,
+				53E6B71B82F13E8F455AFD3271B18158 /* Debug */,
+				B1922F0764C02B17B81BCFA0E84F70E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

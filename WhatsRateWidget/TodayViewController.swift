@@ -43,10 +43,14 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     }
     
     func parsingJSON() {
-        if let jsonData = NSData(contentsOf: NSURL(string: url_USD) as! URL) {
-            let json = JSON(data: jsonData as Data)
-            self.rateIndex.text = String(describing: json["rates"]["CNY"])
-            self.currency = json["rates"]["CNY"].float
+        if let jsonData = NSData(contentsOf: NSURL(string: url_USD)! as URL) {
+            do{
+                let json = try JSON(data: jsonData as Data)
+                self.rateIndex.text = String(describing: json["rates"]["CNY"])
+                self.currency = json["rates"]["CNY"].float
+            }catch{
+                print("Warning!")
+            }
         }
     }
     
