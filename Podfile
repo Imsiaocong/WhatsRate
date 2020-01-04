@@ -5,6 +5,7 @@ target 'WhatsRate' do
   use_frameworks!
 
   # Pods for WhatsRate
+  pod 'SwiftyJSON', '~> 4.0'
 
   target 'WhatsRateTests' do
     inherit! :search_paths

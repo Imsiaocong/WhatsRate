@@ -25,6 +25,7 @@
 		864DAA4F1DDA9C95001F984C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863DC1761DDA91C5004002DE /* MainInterface.storyboard */; };
 		864DAA501DDA9CAB001F984C /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863DC1741DDA91C5004002DE /* TodayViewController.swift */; };
 		DF3857987C9C304045D7850D /* Pods_WhatsRateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCDF4B29083DF5B41379B8E /* Pods_WhatsRateTests.framework */; };
+		E4B4E4DF23C11E32000D624E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B4E4DE23C11E32000D624E /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		933E866221F623AA9B22F967 /* Pods-WhatsRateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsRateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsRateUITests/Pods-WhatsRateUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B12C6ED31410D1B94EB7D518 /* Pods-WhatsRate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsRate.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsRate/Pods-WhatsRate.release.xcconfig"; sourceTree = "<group>"; };
 		E159C3F1239D5E62A86A91CC /* Pods_WhatsRateWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsRateWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B4E4DE23C11E32000D624E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E6182693D56632F9C5E80A07 /* Pods-WhatsRateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsRateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsRateTests/Pods-WhatsRateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FAD60F3FC4E8249DC3E7D7EE /* Pods_WhatsRateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsRateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -185,6 +187,7 @@
 				863DC1441DDA91A4004002DE /* Assets.xcassets */,
 				863DC1461DDA91A4004002DE /* LaunchScreen.storyboard */,
 				863DC1491DDA91A4004002DE /* Info.plist */,
+				E4B4E4DE23C11E32000D624E /* MainView.swift */,
 			);
 			path = WhatsRate;
 			sourceTree = "<group>";
@@ -500,6 +503,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				863DC1401DDA91A4004002DE /* ViewController.swift in Sources */,
+				E4B4E4DF23C11E32000D624E /* MainView.swift in Sources */,
 				863DC13E1DDA91A4004002DE /* AppDelegate.swift in Sources */,
 				864DAA501DDA9CAB001F984C /* TodayViewController.swift in Sources */,
 			);
